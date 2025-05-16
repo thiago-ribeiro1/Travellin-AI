@@ -1,5 +1,5 @@
 # Travellin AI ✈️🌍  
-Projeto desenvolvido para **Imersão IA** da [Alura](https://www.alura.com.br/) em parceria com o **Google Gemini**
+Projeto desenvolvido para **Imersão IA** da [Alura](https://www.alura.com.br/) em parceria com o [Google Gemini](https://gemini.google.com/app)
 
 ---
 
