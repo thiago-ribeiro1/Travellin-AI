@@ -73,25 +73,25 @@ Tudo isso com uma interface responsiva e moderna, integrada com **Google Gemini 
 
 ### Passo a passo:
 
-# 1. Clone o repositório
+## 1. Clone o repositório
 ```bash
 git clone https://github.com/thiago-ribeiro1/Travellin-AI.git
 cd Travellin-AI
 ```
 
-# 2. Crie um arquivo .env na raiz do projeto com sua chave API Gemini, seguindo esse exemplo:
+## 2. Crie um arquivo .env na raiz do projeto com sua chave API Gemini, seguindo esse exemplo:
 ```bash
 GOOGLE_API_KEY="sua_chave_aqui"
 ```
 
-# 3. Instale as dependências
+## 3. Instale as dependências
 ```bash
 cd backend
 pip install -r backend/requirements.txt
 cd ..
 ```
 
-# 4. Rode o servidor
+## 4. Rode o servidor
 ```bash
 python backend/main.py
 ```
