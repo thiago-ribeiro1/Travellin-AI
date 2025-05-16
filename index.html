@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travellin AI</title>
+  </head>
+
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="agent-info">
+          <div class="agent-avatar">
+            <img src="img/1713286349284.jpg" alt="Foto do Agente" />
+          </div>
+          <div class="agent-details">
+            <h2>Fabrício Carraro</h2>
+            <div class="agent-status">Agente (Online)</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="suggestion-chips" class="suggestion-chips">
+        <button>💸 Tenho R$5000 e quero viajar em julho</button>
+        <button>🏖️ Quero uma viagem para a praia</button>
+        <button>🏔️ Lugares frios no Brasil</button>
+        <button>✈️ Quero viajar sozinho</button>
+        <button>👨‍👩‍👧‍👦 Férias em família com crianças</button>
+      </div>
+
+      <div class="chat-messages" id="chat-messages"></div>
+
+      <div class="chat-input">
+        <div class="input-container">
+          <input
+            type="text"
+            id="message-input"
+            placeholder="Digite sua mensagem..."
+          />
+          <button class="send-btn" id="send-btn">➤</button>
+        </div>
+      </div>
+    </div>
+
+    <button id="clear-btn" style="margin: 20px">Limpar Chat</button>
+
+    <script>
+      function clearChat() {
+        document.getElementById("chat-messages").innerHTML = "";
+      }
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
