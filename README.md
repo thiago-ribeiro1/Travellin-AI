@@ -4,17 +4,8 @@ Projeto desenvolvido para **Imersão IA** da [Alura](https://www.alura.com.br/) 
 ---
 
 ![Image](https://github.com/user-attachments/assets/9b2aee25-ea15-4b84-811b-85047df668ec)
-<br>
+<br><br>
 ![Image](https://github.com/user-attachments/assets/4ad2c22a-fcdf-4bc5-91a8-15e5f955fd30)
-
----
-
-<p align="left">
-  <img alt="Python" title="Python" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-  <img alt="JavaScript" title="JavaScript" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-  <img alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img alt="CSS" title="CSS" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-</p>
 
 ---
 
@@ -53,6 +44,13 @@ Tudo isso com uma interface responsiva e moderna, integrada com **Google Gemini 
 ---
 
 ## 🛠 Tecnologias Utilizadas
+
+<p align="left">
+  <img alt="Python" title="Python" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+  <img alt="JavaScript" title="JavaScript" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+  <img alt="HTML" title="HTML" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+  <img alt="CSS" title="CSS" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+</p>
 
 ### Frontend:
 - HTML5, CSS3
