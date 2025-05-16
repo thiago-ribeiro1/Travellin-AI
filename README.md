@@ -76,10 +76,9 @@ Tudo isso com uma interface responsiva e moderna, integrada com **Google Gemini 
 ## 1. Clone o repositório
 ```bash
 git clone https://github.com/thiago-ribeiro1/Travellin-AI.git
-cd Travellin-AI
 ```
 
-## 2. Crie um arquivo .env na raiz do projeto com sua chave API Gemini, seguindo esse exemplo:
+## 2. Abra o projeto no Visual Studio Code, e crie um arquivo .env no diretório raiz com sua chave API Gemini, seguindo esse exemplo:
 ```bash
 GOOGLE_API_KEY="sua_chave_aqui"
 ```
