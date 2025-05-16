@@ -84,10 +84,10 @@ cd Travellin-AI
 GOOGLE_API_KEY="sua_chave_aqui"
 ```
 
-## 3. Instale as dependências
+## 3. Instale todas as dependências
 ```bash
 cd backend
-pip install -r backend/requirements.txt
+pip install fastapi uvicorn python-dotenv google-generativeai beautifulsoup4 requests
 cd ..
 ```
 
