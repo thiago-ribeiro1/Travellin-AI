@@ -78,19 +78,38 @@ Tudo isso com uma interface responsiva e moderna, integrada com **Google Gemini 
 git clone https://github.com/thiago-ribeiro1/Travellin-AI.git
 ```
 
-## 2. Abra o projeto no Visual Studio Code, e crie um arquivo .env no diretório raiz com sua chave API Gemini, seguindo esse exemplo:
+## 2. Configurar a Chave API nas Variáveis de Ambiente
+Configure a sua chave API como uma variável de ambiente no sistema:
+
+#### **No Windows:**
+1. Abra o **Executar** (`Win + R`), digite `sysdm.cpl` e pressione **Enter**.
+2. Vá até a aba **Avançado** e clique em **Variáveis de Ambiente**.
+3. Em **Variáveis do Sistema**, clique em **Novo**.
+4. No campo **Nome da variável**, insira: `GOOGLE_API_KEY`.
+5. No campo **Valor da variável**, insira sua chave API do Gemini.
+6. Clique em **OK** e feche todas as janelas.
+
+#### **No Linux/Mac:**
+1. Abra o terminal.
+2. Digite o seguinte comando e pressione **Enter**:
+   ```sh
+   export GOOGLE_API_KEY="SUA_CHAVE_DA_API"
+   ```
+3. Para tornar a variável permanente, adicione a linha acima ao arquivo `~/.bashrc` ou `~/.zshrc`.
+
+## 3. Abra o projeto no Visual Studio Code, e crie um arquivo .env no diretório raiz com sua chave API Gemini, seguindo esse exemplo:
 ```bash
 GOOGLE_API_KEY="sua_chave_aqui"
 ```
 
-## 3. Instale todas as dependências
+## 4. Instale todas as dependências
 ```bash
 cd backend
 pip install fastapi uvicorn python-dotenv google-generativeai beautifulsoup4 requests
 cd ..
 ```
 
-## 4. Rode o servidor
+## 5. Rode o servidor
 ```bash
 python backend/main.py
 ```
